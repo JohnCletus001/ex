@@ -1,0 +1,438 @@
+
+/*============================================================================================
+                                            GENERAL
+==============================================================================================  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+html{
+    scroll-behavior: smooth;
+}
+h2,h3{
+    font-size: 2.5em;
+}
+.h4{
+    border-bottom: 3px solid orange;
+    width: 15%;
+}
+.navbar-toggler{
+    color: rgba(255, 166, 0, 0.904) !important;
+}
+.navbar-toggler-icon{
+    color: orange !important;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-size:150px; background-repeat:no-repeat; background-image:url(../images/icons/preloader.svg);}
+
+/*============================================================================================
+                                            HEADER
+==============================================================================================  */
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+.nav-link:active{
+    border-bottom: 2px solid orange !important;
+    color: orange !important;
+}
+/*============================================================================================
+                                            HOME
+==============================================================================================  */
+.home{
+    background-image: url(../images/Graphic1.PNG);
+    padding: 170px 80px 160px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f{
+    padding: 25px 130px 0px 0px;
+}
+.red{
+    background-color: rgba(255, 255, 255, 0.080);
+    color: white;
+    padding: 50px 70px;
+}
+.blue{
+    background-color: rgba(255, 255, 255, 0.080);
+    padding: 30px;
+}
+h1{
+    font-size: 3.5em;
+}
+.orange{
+    color: rgb(255, 166, 0);
+}
+input[type="text"], [type="password"]{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    color: white;
+
+}
+input[type="text"], [type="password"],input[type="submit"]{
+    margin-bottom: 40px;
+}
+:focus{
+    outline: none;
+}
+.sp{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+button:hover, input[type="submit:hover"]{
+    background-color: rgba(0, 0, 0, 0);
+    color: orange !important;
+    border: 2px solid orange;
+}
+.but1{
+    width: 100px;
+    height: 45px;
+}
+.but2{
+    width: 100%;
+    height: 45px;
+}
+
+button:focus{
+    outline: none;
+}
+li{
+    margin-left: 30px;
+}
+.rrr{
+    font-size: 25px;
+}
+.l{
+    width: 100%;
+}
+/*============================================================================================
+                                            PART1
+==============================================================================================  */
+.part1, .part3A{
+    background-image: url(../images/background/2.jpg);
+    padding: 150px 80px 100px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.459);
+}
+.e{
+    font-size: 25px !important;
+}
+.img1{
+    width:100%
+}
+/*===============================================================================================
+                                            PART2 
+ ================================================================================================*/
+.part2{
+    background-color: white;
+    padding: 60px 30px 80px 30px;
+    color: rgba(0, 0, 0, 0.459);
+
+}
+.w{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.but3{
+    width: 200px;
+    height: 60px;
+}
+/*  
+ ==============================================================================================
+                                        PART 3
+=================================================================================================  */
+.part3{
+    background-color: white;
+    padding: 10px 30px 40px 30px;
+    color: rgba(0, 0, 0, 0.459);
+}
+.oppo{
+    color: black;
+}
+/*  
+ ==============================================================================================
+                                        PART 4
+=================================================================================================  */
+.part4{
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 110px 30px 160px 30px;
+    color: rgba(255, 255, 255, 0.295);
+}
+.r{
+    border: 0.01px solid rgba(255, 255, 255, 0.205);
+    padding: 20px;
+    text-align: center;
+}
+.reward{
+    background-color: rgba(128, 128, 128, 0.253);
+    padding: 20px 10px;
+}
+.icofont-money, .icofont-tick-mark, .icofont-airplane-alt{
+    font-size: 40px;
+}
+.oppor{
+    color: white;
+}
+/*  
+ ==============================================================================================
+                                        PART 5
+=================================================================================================  */
+.part5{
+    background-color: orange;
+    padding: 40px 0px 40px 30px;
+    color: white;
+}
+.sp1{
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+    width: 160px;
+}
+.sp1:hover{
+    background-color: white !important;
+    color: orange !important;
+}
+.h5{
+    font-size: 30px;
+}
+/*  
+ ==============================================================================================
+                                        PART 6
+=================================================================================================  */
+.part6{
+        
+    background-image: url(../images/background/4.jpg);
+    padding: 110px 0px 10px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.ed{
+    color: rgba(255, 255, 255, 0.295);
+    padding: 10px;
+    word-spacing: 5px;
+
+}
+.bn{
+    color: white;
+}
+.edd{
+    padding-left: 60px;
+}
+.edd a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.edd a:hover{
+    color: orange;
+}
+.footl{
+    color: white;
+    padding-top: 90px;
+}
+.icofont-facebook, .icofont-twitter, .icofont-instagram{
+    font-size: 20px;
+    text-decoration: none;
+}
+.but21{
+    width: 165px !important;
+}
+.fv a{
+    color: white;
+    text-decoration: none;
+
+}
+.icofont-facebook:hover{
+    color: blue;
+}
+.icofont-twitter:hover{
+    color: cyan;
+}
+.icofont-instagram:hover{
+    color: purple;
+}
+/*  
+ ==============================================================================================
+                                        
+=================================================================================================  */
+/*                                      ABOUT.HTML
+ ==============================================================================================
+                                        
+=================================================================================================  */
+.homea{
+    padding: 130px 10px 170px 30px;
+    color: rgba(0, 0, 0, 0.459);
+    line-height: 30px;
+    word-spacing: 10px;
+}
+/*  
+ ==============================================================================================
+                                        PART1A
+=================================================================================================  */
+.part1A{
+    background-color: orange;
+    color: white;
+    padding: 40px;
+}
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+.opl .part1A{
+    position: relative;
+	padding: 40px 50px;
+	margin-bottom:-65px;
+	background-color:orange;
+}
+/*  
+ ==============================================================================================
+                                        PART2A
+=================================================================================================  */
+.part2A{
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 110px 30px 10px 30px;
+    color: rgba(255, 255, 255, 0.295);
+}
+.icofont-briefcase,.icofont-brand-android-robot,.icofont-ui-user{
+    font-size: 45px;
+}
+/*  
+ ==============================================================================================
+                                        PART3A
+=================================================================================================  */
+.part3A{
+    padding:90px 10px 100px 10px !important;   
+}
+/*  
+ ==============================================================================================
+                                        homec
+=================================================================================================  */
+.homec{
+    padding: 130px 50px;
+    text-align: center;
+}
+.homec input{
+    width: 100%;
+    height: 50px;
+    color: black !important;
+}
+.inputcon{
+    border: 1px solid rgba(0, 0, 0, 0.37) !important;
+}
+.homec textarea{
+    width: 100%;
+}
+.form{
+    padding-top: 50px;
+}
+.homec p,.rowc{
+    color: rgba(0, 0, 0, 0.486);
+}
+.homec input:focus,.homec textarea:focus{
+    outline: 1px solid orange !important;
+    border: none !important;
+}
+.homec li{
+    list-style: none;
+}
+.both{
+    width: 150px;
+}
+
+.rowc i{
+    font-size: 30px;
+    color: orange;
+    padding: 20px;
+    border-radius: 100%;
+    border: 2px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================
+                                         MEDIA QUERIES
+=================================================================================================*/
+
+@media screen and (max-width:631px){
+    header{
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .o{
+        padding: 0px !important;
+    }
+    .home, .part1, .part2, .part3, .part4, .part5, .part6, .homea{
+        padding: 70px 5px !important;
+    }
+    .red{
+        padding: 50px 10px;
+    }
+    .blue{
+        display: none;
+    }
+    .red{
+        font-size: 15px;
+    }
+    .f{
+        padding: 0px !important;
+    }
+    /* part1 */
+    .img1{
+        width: 200px;
+    }
+    .e{
+        font-size: 13px !important;
+    }
+    .but2{
+        width: 100%;
+    }
+    .fok{
+        text-align: center;
+    }
+    .ovw{
+        width: 20px !important;
+    }
+
+
+/* ==============================================================================================
+                                        WORK BY JOHNIE C.
+=================================================================================================*/
